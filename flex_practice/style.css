@@ -1,0 +1,98 @@
+body{
+    background-color:cadetblue;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    height: 100%;
+    padding: 8px;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    border-bottom: 1px solid rgba(85, 80, 80,0.2);
+    box-shadow: 0 2px 2px rgba(85, 80, 80,0.2);
+}
+
+.navbar-group1{
+    display: flex;
+    align-items: center;
+}
+.navbar-group2{
+    display: flex;
+    align-items: center;
+}
+
+.main-logo{
+    width: 10%;
+}
+.profile-pic{
+    width: 36px;
+    border-radius: 20px;
+    margin-left:10px;
+}
+.link{
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.link:hover{
+    background-color: rgba(71, 188, 221, 0.1);
+    padding: 6px;
+    border-color: 1px solid rgba(85, 80, 80,0.1);
+    box-shadow: 0px 1px 8px 0 rgba(85, 80, 80,0.1);
+}
+
+.input-text{
+    width: 300px;
+    border-radius: 20px;
+    padding: 8px;
+    border: 1px solid rgba(85, 80, 80,0.2);
+    box-shadow: 0 2px 6px 0 rgba(85, 80, 80,0.1);
+    outline: none;
+}
+
+.input-text:hover{
+    border: 1px solid rgba(85, 80, 80,0.3);
+    box-shadow: 0 2px 6px 0 rgba(85, 80, 80,0.2);
+}
+.cards-container{
+    display: flex;
+    margin: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 6px;
+    justify-content: center;
+    background-color: rgba(85, 80, 80,0.1);
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: azure;
+    box-shadow: 0 1px 6px rgba(85, 80, 80,0.8);
+    margin: 20px;
+}
+
+.card-container:hover{
+    box-shadow: 2px 2px 20px rgba(85, 80, 80,0.9);
+}
+
+.card-image{
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-bottom: 0;
+}
+.card-description{
+    background-color: azure;
+    text-align: center;  
+}
