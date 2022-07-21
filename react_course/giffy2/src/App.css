@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+}
+.App-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.Gif-card{
+  width: 100%
+}
+
+.container-card{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  max-width:300px;
+  border: 1px solid wheat;
+}
+.Search-gif{
+  width: 300px;
+  border: 1px solid wheat;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+  outline: none;
+}
+
+.Search-button{
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  color: aliceblue;
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+  background-color: rebeccapurple;
+  cursor: pointer;
+  text-decoration: none;
+}
+.title{
+  color: aliceblue;
+}

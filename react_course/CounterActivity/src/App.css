@@ -1,0 +1,32 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: #5a99a4;
+  height: 100vh;
+}
+
+.Input-text{
+  width: 30%;
+  outline: none;
+  border: none;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.Img{
+  margin: 30px;
+  width: 30%;
+}
+
+.Counter{
+  background-color: #5a99a4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 40px;
+}
